@@ -18,9 +18,9 @@ print('Добро пожаловать в числовую угадайку!')
 
 n, s, right_range = set_num_and_input()
 
-quit_the_game = 'q'
+
 tries = 0
-while quit_the_game != 'q' or quit_the_game != 'й':
+while True:
     if not is_valid(s):
         print(f"А может быть все-таки введем целое число от 1 до {right_range}?")
         s = input('Введите число от 1 до 100: ')
