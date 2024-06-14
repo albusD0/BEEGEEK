@@ -1,6 +1,6 @@
 import random
 
-chars_full = ['0123456789', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz', '!#$%&*+-=?@^_.', 'il1Lo0O']
+chars_full = ['0123456789', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz', '!#$%&*+-=?@^_', 'il1Lo0O']
 
 questions = ['Включать ли цифры 0123456789? > ', 'Включать ли прописные буквы ABCDEFGHIJKLMNOPQRSTUVWXYZ? > ', 'Включать ли строчные буквы abcdefghijklmnopqrstuvwxyz? > ',
 'Включать ли символы !#$%&*+-=?@^_? > ', 'Исключать ли неоднозначные символы il1Lo0O?']
